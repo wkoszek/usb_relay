@@ -1,5 +1,8 @@
+#include <sys/param.h>
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
 
 #ifdef __linux__
