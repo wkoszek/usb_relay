@@ -1,0 +1,10 @@
+script: make
+before_install:
+        - sudo apt-get install libusb-dev
+language: c
+compiler:
+        - clang
+        - gcc
+os:
+        - linux
+        - os
