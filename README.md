@@ -3,9 +3,10 @@
 
 [![Build Status](https://travis-ci.org/wkoszek/usb_relay.svg)](https://travis-ci.org/wkoszek/usb_relay)
 
-`usb_relay` is a driver for:
-
-http://www.j-works.com/jsb283.php
+`usb_relay` is a driver for: http://www.j-works.com/jsb283.php It gives you
+an ability to connect the JS284 to the USB port and use `usb_relay` to turn
+the relay on and off from the UNIX-based system. I have used it both with
+Ubuntu GNU/Linux and FreeBSD.
 
 # How to build
 
