@@ -1,4 +1,7 @@
 script: make
+before_script:
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install libusb-dev; fi
 addons:
   apt:
     packages:
