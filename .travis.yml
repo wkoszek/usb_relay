@@ -1,6 +1,8 @@
 script: make
-before_install:
-        - sudo apt-get install libusb-dev
+addons:
+  apt:
+    packages:
+    - libusb-dev
 language: c
 compiler:
         - clang
