@@ -1,6 +1,6 @@
 script: make
 before_script:
-- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; make setup_osx ; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then make setup_osx ; fi
 addons:
   apt:
     packages:
