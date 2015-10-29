@@ -35,3 +35,8 @@ You can also flash the LED:
 
 In case you have to debug something on your system, the `-d` flag can be
 passed to the program to get some debugging output.
+
+# Author
+
+- Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
+- [http://www.koszek.com](http://www.koszek.com)
